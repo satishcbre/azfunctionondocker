@@ -21,7 +21,6 @@ spec:
     spec:
       containers:
       - name: az-fn-app
-        image: satishs05/az-function-on-container
+        image: satishs05/az-function-on-container       
         ports:
         - containerPort: 80
-
